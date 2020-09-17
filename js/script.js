@@ -43,9 +43,9 @@ var settings = {
 		"engines": [
 			["https://www.startpage.com/do/dsearch?query=%s", "q", "Startpage", "sg"],
 			["http://www.searx.info/?q=%s", "q", "Searx", "si"],
-			["http://search.yahoo.com/search", "p", "Yahoo", "sy"],
+			["https://pubmed.ncbi.nlm.nih.gov/?term=", "p", "Pubmed", "sy"],
 			["http://wikipedia.org/w/index.php", "w", "Wikipedia", "sw"],
-			["http://www.dict.cc", "s", "dict.cc", "sd"],
+			["https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=", "s", "Scholar", "sd"],
 			["http://dict.leo.org", "search", "leo", "sl"],
 			["http://www.flickr.com/search", "q", "flickr", "sf"],
 			["http://browse.deviantart.com/", "q", "deviantArt", "sa"]
