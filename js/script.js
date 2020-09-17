@@ -41,8 +41,8 @@ var settings = {
 	
 	"search": {
 		"engines": [
-			["http://www.google.com/search", "q", "Google", "sg"],
-			["http://www.google.com/images", "q", "Google Images", "si"],
+			["https://www.startpage.com/do/dsearch?query=%s", "q", "Startpage", "sg"],
+			["http://www.searx.info/?q=%s", "q", "Searx", "si"],
 			["http://search.yahoo.com/search", "p", "Yahoo", "sy"],
 			["http://wikipedia.org/w/index.php", "w", "Wikipedia", "sw"],
 			["http://www.dict.cc", "s", "dict.cc", "sd"],
